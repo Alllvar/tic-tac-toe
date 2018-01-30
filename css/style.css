@@ -1,0 +1,14 @@
+#container {
+    width: 470px;
+}
+  
+.box {
+    float: left;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 500%;
+}
