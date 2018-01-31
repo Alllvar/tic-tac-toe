@@ -5,9 +5,6 @@ for (var i = 0; i < 9; i++) {
 
 }
 
-
-
-
 var boxes = document.getElementsByClassName("box");
 var nextStep = "X";
 var numberOfClicks = 0;
