@@ -1,3 +1,13 @@
+for (var i = 0; i < 9; i++) {
+    var newBlock = document.createElement("div");
+    newBlock.setAttribute("class", "box");
+    document.getElementById("container").appendChild(newBlock);
+
+}
+
+
+
+
 var boxes = document.getElementsByClassName("box");
 var nextStep = "X";
 var numberOfClicks = 0;
